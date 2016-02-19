@@ -1,0 +1,25 @@
+@font-face {
+	font-family:MuseoSansCyrl;
+	src:url(../font/MuseoSansCyrl.otf);
+}
+
+* {
+	font-family: MuseoSansCyrl, tahoma;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+
+.timer {
+	width: 80%;
+	margin: 54px auto;
+	font-size: 160%;
+	text-align: center
+}
+
+.cancel {
+	width: 80%;
+	margin: 54px auto;
+	font-size: 160%;
+	text-align: center;
+}

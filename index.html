@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TestTask</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+	<div class="timer">
+		<p>hello world!</p>
+		<p>форма появиться через: <span id="timer"></span></p>
+	</div>
+	<form action="index.html" method="post">
+		<div class="output"></div>
+		<p class="header_text">
+			заполните форму<br>
+			и мы предоставим вам<br>
+			бесплатную оценку<br>
+			интересующего вас аукциона
+		</p>
+		
+		<div class="main">
+			<label for="id_name">имя</label><br>
+			<input type="text" id="id_name" placeholder="имя" required><br>
+
+			<label for="id_numberAuc">номер аукциона</label><br>
+			<input type="text" id="id_numberAuc" placeholder="номер аукциона" required><br>
+			
+			<label for="id_numberPhone">номер телефона</label><br>
+			<input type="tel" value="+7" required readonly>
+			<input type="tel" id="id_numberPhone" placeholder="номер" required><br>
+			
+			<label for="id_email">адрес электронной почты</label><br>
+			<input type="email" id="id_email" placeholder="e-mail" required><br>
+			
+			<input type="submit" value="заказать оценку">
+		</div>
+	</form>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
